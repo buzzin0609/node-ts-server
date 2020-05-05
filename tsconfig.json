@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": true,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "jsx": "preserve",
+    "outDir": "./build",
+    "sourceMap": true
+  },
+  "include": [
+    "app/**/*",
+    "@types"
+  ],
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}
